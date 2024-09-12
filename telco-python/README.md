@@ -62,7 +62,7 @@ This analysis delves into customer data to uncover trends and relationships that
 
 ---
 
-Insights:
+**Insights**:
 
 **Service Tenure and Charges**: The data reveals a robust positive correlation between service tenure and both long-distance charges (0.78) and total revenue (0.85). This suggests that the longer customers stay, the more they contribute financially through both recurring charges and additional services like long-distance calls.
 
@@ -80,7 +80,7 @@ Long-Distance Charges and Revenue: The strong correlation between long-distance 
 
 
 ---
-Recommendations:
+**Recommendations**:
 
 **Review Pricing Strategies**: Given the strong link between monthly charges and revenue, consider reviewing pricing strategies to ensure they are competitive yet profitable, especially for services with high churn rates like Fiber Optic internet.
 
