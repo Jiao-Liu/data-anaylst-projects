@@ -40,7 +40,7 @@ This analysis delves into customer data to uncover trends and relationships that
 5. Low satisfaction score leading a high churn risk
    ![image](https://github.com/user-attachments/assets/feb1fc53-297b-4129-ad2d-03276ac5fb11)
 
-6. Top 2 churned resason are  competitor had better devices,competitor had better devices
+6. Top 2 churned resason are  competitor had better devices,competitor had better offer
    ![image](https://github.com/user-attachments/assets/1965ad00-840e-4115-b442-51228387950a)
 
 7. Offer E has a higher churn rate
