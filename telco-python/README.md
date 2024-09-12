@@ -1,36 +1,66 @@
-About: This analysis delves into customer data to uncover trends and relationships that impact revenue, retention, and churn for a telecom company. It examines how demographics, service usage, and satisfaction levels affect business outcomes. The goal is to optimize services and marketing strategies to improve customer satisfaction and reduce churn, enhancing long-term profitability.
+**About**: 
+This analysis delves into customer data to uncover trends and relationships that impact revenue, retention, and churn for a telecom company. It examines how demographics, service usage, and satisfaction levels affect business outcomes. The goal is to optimize services and marketing strategies to improve customer satisfaction and reduce churn, enhancing long-term profitability.
 
-Questions:
-Customer Behavior and Preferences: How does monthly data consumption vary across different age groups? What general patterns can be identified in data usage based on customer demographics?
-Customer Loyalty and Financial Performance: What is the relationship between customer tenure and their overall financial contributions such as charges and revenue? How does the length of customer engagement correlate with their lifetime value?
-Service Features and Customer Churn: Which categories of services are most commonly associated with higher churn rates? Are certain types of internet services, such as high-speed options, more prone to churn compared to others?
-Customer Satisfaction: How does customer satisfaction influence churn rates across different service levels? Are there variations in churn risk based on differing levels of customer satisfaction?
-Marketing and Promotions: Do specific types of promotional offers tend to result in higher churn rates, and what might be the reasons? How do different promotional strategies impact customer retention and acquisition?
-Customer Service: How do customers generally perceive the quality of service provided? What improvements could be made to customer service practices to boost overall satisfaction and reduce churn?
+---
 
+**Questions**:
+1. **Customer Behavior and Preferences**:
+    How does monthly data consumption vary across different age groups?
+    What general patterns can be identified in data usage based on customer demographics?
+2. **Customer Loyalty and Financial Performance**:
+     What is the relationship between customer tenure and their overall financial contributions such as charges and revenue? How does the length of            customer engagement correlate with their lifetime value?
+3. **Service Features and Customer Churn**:
+   Which categories of services are most commonly associated with higher churn rates?
+   Are certain types of internet services, such as high-speed options, more prone to churn compared to others?
+4. **Customer Satisfaction**:
+   How does customer satisfaction influence churn rates across different service levels?
+   Are there variations in churn risk based on differing levels of customer satisfaction?
+5. **Marketing and Promotions**:
+   Do specific types of promotional offers tend to result in higher churn rates, and what might be the reasons?
+   How do different promotional strategies impact customer retention and acquisition?
+6.**Customer Service**:
+  How do customers generally perceive the quality of service provided?
+  What improvements could be made to customer service practices to boost overall satisfaction and reduce churn?
 
-total customer 7,043, and churn rate 26.5%. 
+----
+
+**Findings**:
+
+1. total customer 7,043, and churn rate 26.5%. 
 ![image](https://github.com/user-attachments/assets/0d4233f9-4c53-448c-9c95-7e729ece2b77)
 
 
+2. we can see that between age 20-30 there is a greater average monthly GB download
+   ![image](https://github.com/user-attachments/assets/b94296d3-050f-4d47-b423-9cca23975b65)
 
-we can see that between age 20-30 there is a greater average monthly GB download
+3. Tenure_Months and CLTV (Customer Lifetime Value): Correlation coefficient of 0.4, suggesting a moderate positive correlation between service tenure and CLTV.
+4. total_Revenue and CLTV: Correlation coefficient of 0.35, suggesting a moderate positive relationship between total revenue and CLTV.
+   ![image](https://github.com/user-attachments/assets/e3fad63b-7dfc-4958-9751-ce9b8c021932)
 
-1.Tenure_Months and CLTV (Customer Lifetime Value): Correlation coefficient of 0.4, suggesting a moderate positive correlation between service tenure and CLTV.
+5. Low satisfaction score leading a high churn risk
+   ![image](https://github.com/user-attachments/assets/feb1fc53-297b-4129-ad2d-03276ac5fb11)
 
-2. total_Revenue and CLTV: Correlation coefficient of 0.35, suggesting a moderate positive relationship between total revenue and CLTV.
+6. Top 2 churned resason are  competitor had better devices,competitor had better devices
+   ![image](https://github.com/user-attachments/assets/1965ad00-840e-4115-b442-51228387950a)
 
-Low satisfaction score leading a high churn risk
+7. Offer E has a higher churn rate
+   ![image](https://github.com/user-attachments/assets/13e91b63-0520-4a8a-addf-457e76a3201a)
 
-Top 2 churned resason are  competitor had better devices,competitor had better devices
+8. internet service, streaming tv , streaming music have over 30% of churn rate
+    ![image](https://github.com/user-attachments/assets/09391893-a86b-41ae-ae86-a8151c705c5c)
 
-Offer E has a higher churn rate
+9. Fiber Optic internet type has the highestt churn rate
 
-internet service, streaming tv , streaming music have over 30% of churn rate
+    ![image](https://github.com/user-attachments/assets/d7c00793-9cc5-4016-a586-f9b531678d75)
 
-Fiber Optic internet type has the highestt churn rate
+10. Over 1 year tenure have a higher stayed rate
+    ![image](https://github.com/user-attachments/assets/69314011-88f1-458d-893d-be7457137306)
 
-Over 1 year tenure have a higher stayed rate
+
+
+
+
+---
 
 Insights:
 
@@ -48,6 +78,8 @@ Long-Distance Charges and Revenue: The strong correlation between long-distance 
 
 **Age and Usage Patterns**: Younger users, particularly those between 20-30 years old, have higher average monthly GB downloads, indicating higher data consumption that could be tied to lifestyle or tech-savviness.
 
+
+---
 Recommendations:
 
 **Review Pricing Strategies**: Given the strong link between monthly charges and revenue, consider reviewing pricing strategies to ensure they are competitive yet profitable, especially for services with high churn rates like Fiber Optic internet.
